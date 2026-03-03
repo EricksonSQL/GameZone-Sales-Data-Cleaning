@@ -17,7 +17,7 @@ This project demonstrates data cleaning and transformation using SQL Server on a
 - Converted price column to DECIMAL(10,2) for accurate aggregation
 - Verified total revenue using SQL aggregate functions
 
-📊 Example Query
+📊 Example Query: 
 SELECT SUM(USD_PRICE) AS Total_Revenue
 FROM gamezone_orders_data;
 
